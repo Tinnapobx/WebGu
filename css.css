@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100;400&display=swap"); 
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+   /* overflow: hidden; */
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    
+}
+
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #2c2c2c;
+    letter-spacing:  3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b {
+    font-size: 70px;
+    color: rgb(22, 22, 22);
+}
+
+.navItems {
+    display: flex;
+    transition: .3s;
+
+    
+}
+
+.navItems li {
+   list-style: none;
+   transition: .3s;
+   margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #2c2c2c;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+    border-bottom: solid 1px #181818;
+
+}
+
+.navItems li:hover a
+,.links a:hover {
+    color: #a058ff;
+    border-bottom: solid 1px #a058ff;
+    transition: .3s;
+
+}
+
+.links a {
+    font-size: 30px;
+    color: #2c2c2c;
+    margin: 25px 10px;
+    transition: .3s;
+
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+    
+
+
+}
+
+.wrapper2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+    
+
+}
+
+.wrapper3 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+
+
+}
+
+.cols {
+    width: 50%;
+}
+
+.cols2 {
+    width: 50%;
+    position: relative;
+    left: 62%;
+    bottom: 6%;
+}
+
+.topline {
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #2c2c2c;
+
+}
+
+.topline::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom:  10px;  
+    background-color: #a058ff;
+}
+
+.topline2 {
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #2c2c2c;
+
+}
+
+.topline2::after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom:  10px;  
+    background-color: #a058ff;
+}
+
+h1 {
+    display: flex;
+    font-size: 7em;
+    font-weight: 900;
+    color: #2c2c2c;
+}
+
+.multiText {
+    color: #a058ff;
+    text-transform: capitalize;
+}
+
+.multiText2 {
+    color: #a058ff;
+    text-transform: capitalize;
+}
+
+p {
+    display: block;
+    font-size:  1.2em;
+    color: #2c2c2c;
+}
+
+.btns {
+    width: 100%;
+    position: relative;
+    left: 150px;
+}
+
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    color: #222222;
+    padding: 8px 14px;
+    margin:  40px 5px;
+    letter-spacing:  2px;
+    text-transform: capitalize;
+    border-radius: 0px;
+    background-color: #ffffff00;
+    border-bottom: solid 1px #181818;
+    transition: .3s;
+
+}
+
+button:hover {
+    border-bottom: solid 1px #a058ff;
+    transition: .3s;
+}
+
+.boximg {
+    display: flex;
+    left: -7.5%;
+    top: 3%;
+    position: relative;
+}
+
+.imgbox3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 5%;
+}
+
+.imgbox3 img {
+    position: relative;
+    width: 100%;
+}
+
+.imgbox3 p {
+    margin-top: 10%;
+    margin-left: 28%;
+    color: #2c2c2c;
+}
+
+.imgbox {
+    position: relative;
+    margin-bottom: 16%;
+    width: 100%;
+    height: 100%;
+    left: 20%;
+}
+
+.imgbox img {
+    position: relative;
+    width: 120%;
+
+}
+
+.imgbox2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: -120%;
+    margin-bottom: 20%;
+}
+
+.imgbox2 img {
+    position: relative;
+    width: 130%;
+}
